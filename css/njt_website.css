@@ -15,9 +15,7 @@ body {
 }
 
 .img-circle {
-    margin-top: 50px;
     position: relative;
-    left: 16%
 }
 
 .resume_header {
@@ -37,20 +35,19 @@ body {
     padding-bottom: 18px;
 }
 
-.codeup_dates {
-    font-size: smaller;
-    position: relative;
-    top: 130px;
-    padding-bottom: 18px;
-}
-
-.work_dates {
-    font-size: smaller;
-    position: relative;
-    top: 215px;
-    padding-bottom: 60px;
-}
 
 #port_header {
     padding-top: 3%;
+}
+.codeup_dates {
+    font-size: smaller;
+    position: relative;
+    top: 30px;
+    padding-bottom: 18px;
+}
+.work_dates {
+    font-size: smaller;
+    position: relative;
+    top: 120px;
+    padding-bottom: 60px;
 }
