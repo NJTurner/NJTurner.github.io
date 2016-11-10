@@ -35,7 +35,6 @@ body {
     padding-bottom: 18px;
 }
 
-
 #port_header {
     padding-top: 3%;
 }
@@ -57,7 +56,7 @@ body {
     color: darkgrey;
     width: 100%;
     height: 30px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
 }
