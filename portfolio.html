@@ -5,42 +5,93 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/njt_website.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
-    <div class="container">
-        <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a href="index.html" class="navbar-brand">Nicholas Turner</a>
-        </div>
-        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-            <ul class="nav navbar-nav">
-                <li>
-                    <a href="resume.html">Resume</a>
-                </li>
-                <li>
-                    <!--jumbotron--->
-                    <a href="portfolio.html">Portfolio</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-</header>
-<div class="container">
+<div class="container-fluid">
     <div class="row">
-        <div class="col-xs-12">
-            <h1 id="port_header">PORTFOLIO</h1>
+        <div class="col-md-12">
+            <nav class="navbar navbar-default navbar-inverse" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
+                            class="icon-bar"></span><span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Nicholas Turner</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="resume.html">Resume</a>
+                        </li>
+                        <li class="active">
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="text-center">
+                PORTFOLIO
+            </h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <h3>
+                Simpson's Simon
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+            </p>
+        </div>
+        <div class="col-md-6">
+            <img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/" />
+        </div>
+        <div class="col-md-6">
+            <h3>
+                Google API Project
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <h3>
+                Calculator
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+            </p>
+        </div>
+        <div class="col-md-6">
+            <img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/" />
+        </div>
+    </div>
+    <div class="row footer">
+        <div class="col-md-12 box">
+            <p class="text-center">
+                Nicholas Turner, 2016
+            </p>
         </div>
     </div>
 </div>
-<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script src="JS/bootstrap.js"></script>
-<script async src='https://pepper.swat.io/embed.js?eyJwb3NpdGlvbiI6InJpZ2h0IiwiY29sb3IiOiI3MGIxN2YiLCJjdXN0b21Db2xvciI6dHJ1ZSwiaWNvbiI6ImVtYWlsIiwicHJvbm91biI6Im1lIiwibGFuZ3VhZ2UiOiJlbiIsImJyYW5kZWQiOnRydWUsImludHJvVGV4dCI6IkhlbGxvLCBJJ20gTmljaG9sYXMgVHVybmVyLCBjb250YWN0IG1lIGZvciBhbnkgaW5xdWlyaWVzISIsImNoYW5uZWxzIjpbWyJsaW5rZWRpbiIsImh0dHBzOi8vd3d3LmxpbmtlZGluLmNvbS9pbi9uaWNrLXR1cm5lci02NGEwYmIzNCIsInNvY2lhbCJdLFsicGhvbmUiLCIoOTA4KS00NTEtMTczOSIsImNsYXNzaWMiXSxbImVtYWlsIiwiZGltZXN0ZWFrc05UQGdtYWlsLmNvbSIsImNsYXNzaWMiXV19'>
-</script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+<script async
+        src='https://pepper.swat.io/embed.js?eyJwb3NpdGlvbiI6InJpZ2h0IiwiY29sb3IiOiI3MGIxN2YiLCJjdXN0b21Db2xvciI6dHJ1ZSwiaWNvbiI6ImVtYWlsIiwicHJvbm91biI6Im1lIiwibGFuZ3VhZ2UiOiJlbiIsImJyYW5kZWQiOmZhbHNlLCJpbnRyb1RleHQiOiJIZWxsbywgSSdtIE5pY2hvbGFzIFR1cm5lciwgY29udGFjdCBtZSBmb3IgYW55IGlucXVpcmllcyEiLCJjaGFubmVscyI6W1sibGlua2VkaW4iLCJodHRwczovL3d3dy5saW5rZWRpbi5jb20vaW4vbmljay10dXJuZXItNjRhMGJiMzQiLCJzb2NpYWwiXSxbInBob25lIiwiKDkwOCktNDUxLTE3MzkiLCJjbGFzc2ljIl0sWyJlbWFpbCIsImRpbWVzdGVha3NOVEBnbWFpbC5jb20iLCJjbGFzc2ljIl1dfQ=='></script>
 </body>
 </html>
